@@ -5,11 +5,11 @@
         static void Main(string[] args)
         {
             int n = int.Parse(Console.ReadLine());
-            Box<int> box = new Box<int>();
+            Box<string> box = new Box<string>();
 
             for (int i = 0; i < n; i++)
             {
-                int input = int.Parse(Console.ReadLine());
+                string input = Console.ReadLine();
 
                 box.Items.Add(input);
                                
