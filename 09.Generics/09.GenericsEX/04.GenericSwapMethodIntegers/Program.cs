@@ -1,15 +1,15 @@
-﻿namespace _03.GenericSwapMethodStrings
+﻿namespace _04.GenericSwapMethodIntegers
 {
     public class StartUp
     {
         static void Main(string[] args)
         {
             int n = int.Parse(Console.ReadLine());
-            Box<string> box = new Box<string>();
+            Box<int> box = new Box<int>();
 
             for (int i = 0; i < n; i++)
             {
-                string input = Console.ReadLine();
+                int input = int.Parse(Console.ReadLine());
 
                 box.Items.Add(input);
                                
