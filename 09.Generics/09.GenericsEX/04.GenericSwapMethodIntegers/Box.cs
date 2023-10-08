@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _03.GenericSwapMethodStrings
+namespace _04.GenericSwapMethodIntegers
 {
     public class Box<T>
     {

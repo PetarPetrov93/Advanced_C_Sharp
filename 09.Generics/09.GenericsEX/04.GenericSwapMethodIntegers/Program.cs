@@ -1,4 +1,4 @@
-﻿namespace _03.GenericSwapMethodStrings
+﻿namespace _04.GenericSwapMethodIntegers
 {
     public class StartUp
     {
