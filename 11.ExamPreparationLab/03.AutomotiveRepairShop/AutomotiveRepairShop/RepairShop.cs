@@ -24,9 +24,9 @@ namespace AutomotiveRepairShop
 
         public bool RemoveVehicle(string vin)
         {
-            if (Vehicles.Any(automobile => automobile.Vin == vin))
+            if (Vehicles.Any(automobile => automobile.VIN == vin))
             {
-                Vehicles.RemoveAll(automobile => automobile.Vin == vin);
+                Vehicles.RemoveAll(automobile => automobile.VIN == vin);
                 return true;
             }
             else
@@ -45,7 +45,7 @@ namespace AutomotiveRepairShop
 
             Vehicle lowestMilage;
 
-            lowestMilage = Vehicles.OrderBy(car => car.Milage).FirstOrDefault();
+            lowestMilage = Vehicles.OrderBy(car => car.Mileage).FirstOrDefault();
             return lowestMilage;
         }
 
