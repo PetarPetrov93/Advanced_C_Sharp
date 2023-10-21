@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.OffroadChallenge", "01.OffroadChallenge\01.OffroadChallenge.csproj", "{35C547AD-F3C1-47F7-B9BF-BDE7F82706DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.FishingCompetition", "02.FishingCompetition\02.FishingCompetition.csproj", "{1851A739-AAAA-45EC-833A-2A5AD802B801}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35C547AD-F3C1-47F7-B9BF-BDE7F82706DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35C547AD-F3C1-47F7-B9BF-BDE7F82706DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35C547AD-F3C1-47F7-B9BF-BDE7F82706DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35C547AD-F3C1-47F7-B9BF-BDE7F82706DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1851A739-AAAA-45EC-833A-2A5AD802B801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1851A739-AAAA-45EC-833A-2A5AD802B801}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1851A739-AAAA-45EC-833A-2A5AD802B801}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1851A739-AAAA-45EC-833A-2A5AD802B801}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84DA4C60-7530-401D-B411-6C14C6953D67}
+	EndGlobalSection
+EndGlobal
